@@ -4,7 +4,7 @@ export const navigationLinks: { label: string; route: string }[] = [
   { label: 'Home', route: '/' },
   { label: 'Approach', route: '/approach' },
   { label: 'Mahotsav', route: '/mahotsav' },
-  { label: 'Micro-Improvement Pitaara', route: '/explore' },
+  { label: 'Micro-Improvement Pitara', route: '/explore' },
 ];
 
 export const heroData: HeroSection = {
@@ -37,28 +37,29 @@ export const stats: Stats[] = [
 export const cardsData: Card[] = [
   {
     title: 'Infrastructure',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     image: 'assets/images/micro-improve/m1.png',
     buttonLabel: 'Learn More',
     route: '/domain/infrastructure',
     blogs: [
       {
         title: 'School resources',
-        description: 'The HM understands the importance of having good school resources',
+        description: 'The HM understands the importance of having good school resources.',
         tags: ['HM'],
         date: '2 weeks',
-        objective: 'To improve the resources available in the school',
+        objective: 'To improve the resources available in the school.',
         sqaDomain: 'Infrastructure',
         subCategory: 'Physical Infrastructure',
         isVideo: true,
 
-        stepsTaken: [
-          "Assess the current resources and infrastructure available in the school",
-          "Detail the needs of the school",
-          "Identify resources that the community can support with",
-          "List the requirements which needs to be procured",
-          "Share the list with the CRP",
-        ]
+       stepsTaken: [
+        "Assess the current resources and infrastructure available in the school.",
+        "Detail the needs of the school.",
+        "Identify resources that the community can support with.",
+        "List the requirements which need to be procured.",
+        "Share the list with the CRP."
+      ]
+
       },
       {
         title: 'Bringing back the dropouts',
@@ -68,17 +69,18 @@ export const cardsData: Card[] = [
         objective: 'To engage teachers and SMC members to create a plan to bring back students who have dropped out to school.',
         sqaDomain: 'Infrastructure',
         subCategory: 'Physical Infrastructure',
-        stepsTaken:  [
-          'Create a consolidated list of students who have dropped out of school',
-          'Organise a meeting with teachers and SMC members',
-          'Identify the reasons for dropouts',
-          'Identify strategies to bring dropout students back into the school system',
-          'Create an action plan',
-          'Assign tasks to members at the meeting based on strategies',
-          'Implement the strategies',
-          'Conduct a follow-up session for updates and challenges',
-          'Document the learnings, challenges, experiences'
-        ],
+        stepsTaken: [
+        'Create a consolidated list of students who have dropped out of school.',
+        'Organise a meeting with teachers and SMC members.',
+        'Identify the reasons for dropouts.',
+        'Identify strategies to bring dropout students back into the school system.',
+        'Create an action plan.',
+        'Assign tasks to members at the meeting based on strategies.',
+        'Implement the strategies.',
+        'Conduct a follow-up session for updates and challenges.',
+        'Document the learnings, challenges, experiences.'
+      ]
+
       },
       {
         title: 'School Exposure Visit',
@@ -89,70 +91,67 @@ export const cardsData: Card[] = [
         sqaDomain: 'Infrastructure',
         subCategory: 'Physical Infrastructure',
         stepsTaken: [
-          'Identify the local primary school to visit for exposure',
-          'Connect with the local primary school HM to schedule an exposure visit',
-          'Inform parents about the primary school and exposure visit to school',
-          'Plan the visit to the primary school',
-          'Plan an interactive session with the primary school HM, teacher, and students',
-          'Take feedback from parents on the visit'
+          'Identify the local primary school to visit for exposure.',
+          'Connect with the local primary school HM to schedule an exposure visit.',
+          'Inform parents about the primary school and exposure visit to school.',
+          'Plan the visit to the primary school.',
+          'Plan an interactive session with the primary school HM, teacher, and students.',
+          'Take feedback from parents on the visit.'
         ]
       }
     ]
   },
   {
-    title: 'curriculum, Pedagogy Assessment ',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ',
+    title: 'Curriculum, Pedagogy Assessment ',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     image: 'assets/images/micro-improve/m3.png',
     buttonLabel: 'Explore',
-    route: '/domain/curriculum',
+    route: '/domain/curriculum-pedagogy-assessment',
     blogs: [
       {
         title: ' Vocabulary Expansion',
-        description: 'The HM understands the importance of having good school resources',
-        tags: ['English Teachers'],
+        description: 'The HM understands the importance of having good school resources.',
+        tags: ['Teachers'],
         date: '1 Month',
-        objective: 'Build vocabulary of student by conducting classroom activities',
+        objective: 'Build vocabulary of student by conducting classroom activities.',
         sqaDomain: 'curriculum, Pedagogy Assessment',
         subCategory: 'Physical Infrastructure',
         stepsTaken: [
-          'Conduct an activity to assess the vocabulary level of students',
-          'Create a plan of action to introduce thematic vocabulary activities weekly',
-          'Spend 15 minutes to conduct thematic vocabulary activities and form sentences using newly learned words',
-          'Assess your students\' vocabulary periodically and make changes to your plan',
-          'Plan for a classroom-level showcase where students demonstrate their newly learned vocabulary and phrases'
+          'Conduct an activity to assess the vocabulary level of students.',
+          'Create a plan of action to introduce thematic vocabulary activities weekly.',
+          'Spend 15 minutes to conduct thematic vocabulary activities and form sentences using newly learned words.',
+          'Assess your students\' vocabulary periodically and make changes to your plan.',
+          'Plan for a classroom-level showcase where students demonstrate their newly learned vocabulary and phrases.'
         ],
       },
-      {
-        title: ' Vocabulary Expansion',
-        description: 'The HM understands the importance of having good school resources',
-        tags: ['English Teachers'],
-        date: '1 Month',
-        objective: 'Build vocabulary of student by conducting classroom activities',
-        sqaDomain: 'curriculum, Pedagogy Assessment',
-        subCategory: 'Physical Infrastructure',
+     {
+        title: 'कार्ड्स द्वारा हिंदी भाषा शिक्षण',
+        description: 'प्राथमिक कक्षाओं में भाषा और गणित पर सर्वाधिक ध्यान दिया जाता है, परंतु बच्चों को पढ़ाई के दौरान मैंने पाया है कि उन्हें उनकी हिंदी भाषा की किताबों के सामान्य अक्षर पहचानने, बोलने, और लिखने में काफी उलझन होती है।',
+        tags: ['HM', 'Teachers'],
+        date: '10.2.2023',
+        objective: 'मैं अन्य गतिविधियों को खोजने और बच्चों को उनके माध्यम से पढ़ाने का प्रयास कर रही हूँ। मेरा लक्ष्य है कि मेरे विद्यालय के बच्चे वर्गसापेक्ष दक्षताओं को प्राप्त करें और उनके आधार पर आगे की सफलताओं की नींव रखें।',
+        sqaDomain: 'Curriculum, Pedagogy, and Assessment',
+        subCategory: 'Curriculum Planning',
         stepsTaken: [
-          'Conduct an activity to assess the vocabulary level of students',
-          'Create a plan of action to introduce thematic vocabulary activities weekly',
-          'Spend 15 minutes to conduct thematic vocabulary activities and form sentences using newly learned words',
-          'Assess your students\' vocabulary periodically and make changes to your plan',
-          'Plan for a classroom-level showcase where students demonstrate their newly learned vocabulary and phrases'
-        ],
+          'मैंने बच्चों द्वारा अक्षरों की सही पहचान हेतु स्वर एवं व्यंजन वाले फ्लैश कार्ड बनाए',
+          'गतिविधियों के माध्यम से अक्षरज्ञान करवाने का प्रयास किया।',
+          'इस गतिविधि में बच्चे कार्ड को देखते हैं और उसपर लिखे अक्षर को पहचानते हैं।',
+          'साथ ही, मैं उस अक्षर से बननेवाले शब्दों को पूछती हूँ, जो दैनिक जीवन में इस्तेमाल होने वाले हैं और बच्चे उनसे भली-भांति अवगत हैं।'
+        ]
       },
        {
-        title: ' Vocabulary Expansion',
-        description: 'The HM understands the importance of having good school resources',
-        tags: ['English Teachers'],
-        date: '1 Month',
-        objective: 'Build vocabulary of student by conducting classroom activities',
-        sqaDomain: 'curriculum, Pedagogy Assessment',
-        subCategory: 'Physical Infrastructure',
+        title: 'शब्दों की चक्री',
+        description: 'वर्ग 2 में हिंदी सिखाते समय बच्चों को छोटे-छोटे शब्द बनाने और पढ़ने में कठिनाई होती थी। मेरे द्वारा बहुत ही प्रयास किया गया, इसके बावजूद बच्चों का मन अधिगम के प्रति नहीं लगता था। बच्चे खेलने-, कूदने और चित्र बनाने में अधिक मन लगाते थे। उन्हें तरह-तरह के खेल खेलना ज्यादा रुचि कर लगता है।',
+        tags: ['HM', 'Teachers'],
+        date: '20.2.2023',
+        objective: 'मेरे द्वारा बनाए गए टीएलएम से बच्चों पर प्रत्यक्ष रूप में प्रभाव पड़ा। बच्चे इस टीएलएम को अपने हाथों से स्पर्श करके, स्वयं करके, चरखी को घुमा कर शब्द बनाना सिखने लगे।',
+        sqaDomain: 'Curriculum, Pedagogy and Assessment',
+        subCategory: 'Teaching Learning Process',
         stepsTaken: [
-          'Conduct an activity to assess the vocabulary level of students',
-          'Create a plan of action to introduce thematic vocabulary activities weekly',
-          'Spend 15 minutes to conduct thematic vocabulary activities and form sentences using newly learned words',
-          'Assess your students\' vocabulary periodically and make changes to your plan',
-          'Plan for a classroom-level showcase where students demonstrate their newly learned vocabulary and phrases'
-        ],
+          'बच्चों के मनोभाव को देखते हुए मैंने वर्ग कक्ष को क्रिएटिव बनाने के लिए सोचा। मैंने बच्चों को खेल-खेल में और रोचकता के साथ अधिगम प्राप्ति हेतु स्वनिर्मित एक टीएलएम का निर्माण किया।',
+          'TLM, कबाड़ से जुगाड़ से बनाया',
+          'इस टीएलएम के माध्यम से बच्चे स्वतंत्रता से सीखें। बच्चे खेल-खेल में इसे स्पर्श करके सीखें।'
+        ]
       }
     ]
   },
@@ -161,23 +160,23 @@ export const cardsData: Card[] = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ',
     image: 'assets/images/micro-improve/m4.png',
     buttonLabel: 'Read More',
-    route: '/domain/hr',
+    route: '/domain/human-resources',
     blogs: [
       {
         title: "Teacher's motivation matters",
-        description: "HM will be able to assess the motivation level of their teachers and take necessary steps to keep teachers motivated",
+        description: "HM will be able to assess the motivation level of their teachers and take necessary steps to keep teachers motivated.",
         tags: ['HM'],
         date: '1 month',
-        objective: 'Ensure that the teachers are motivated',
+        objective: 'Ensure that the teachers are motivated.',
         sqaDomain: 'Human Resources',
         subCategory: 'Mentoring opportunities',
         stepsTaken: [
-          'Conduct a small baseline survey to map the motivation level of teachers',
-          'Organize small sharing circles with teachers daily',
-          'Schedule 1-1 conversation with every teacher in a month',
-          'Discuss the challenges faced by the teacher',
-          'Create an action plan with the teacher for identified areas of improvement',
-          'Observe Samiksha Reports to analyze the change in the motivation level of teachers'
+          'Conduct a small baseline survey to map the motivation level of teachers.',
+          'Organize small sharing circles with teachers daily.',
+          'Schedule 1-1 conversation with every teacher in a month.',
+          'Discuss the challenges faced by the teacher.',
+          'Create an action plan with the teacher for identified areas of improvement.',
+          'Observe Samiksha Reports to analyze the change in the motivation level of teachers.'
         ],
       },
       {
@@ -185,19 +184,19 @@ export const cardsData: Card[] = [
         description: "Create a space for teachers to share their best practices, learning, and ideas by conducting a teacher mela.",
         tags: ['HM'],
         date: '2 weeks',
-        objective: 'To conduct effective engagement amongst all the teachers',
+        objective: 'To conduct effective engagement amongst all the teachers.',
         sqaDomain: 'Human Resources',
         subCategory: 'Staff recognition',
         stepsTaken: [
-          'Send a survey form to understand teacher\'s expectation from the mela',
-          'Organise & conduct a meeting with teachers to discuss the Teacher Mela',
-          'List down the activities for the Teacher Mela',
-          'Allocate the responsibilities for the Teacher Mela',
-          'Arrange the logistics to organise the mela',
-          'Communicate the schedule for teacher mela',
-          'Conduct the Teacher mela',
-          'Ask the teachers for the feedback post Mela',
-          'Document the Mela proceedings'
+          'Send a survey form to understand teacher\'s expectation from the mela.',
+          'Organise & conduct a meeting with teachers to discuss the Teacher Mela.',
+          'List down the activities for the Teacher Mela.',
+          'Allocate the responsibilities for the Teacher Mela.',
+          'Arrange the logistics to organise the mela.',
+          'Communicate the schedule for teacher mela.',
+          'Conduct the Teacher mela.',
+          'Ask the teachers for the feedback post Mela.',
+          'Document the Mela proceedings.'
         ],
       },
       {
@@ -209,13 +208,13 @@ export const cardsData: Card[] = [
           sqaDomain: 'Human Resources',
           subCategory: 'Structures and processes',
           stepsTaken: [
-            'Set the agenda for the staff meeting',
-            'Share the time, date, and agenda with the teachers',
-            'Plan the meeting flow',
-            'Share the discussion points with teachers',
-            'Ask any teacher to write minutes during the meeting',
-            'Discuss the possible agenda for the next meeting',
-            'Ask teachers for feedback and document it'
+            'Set the agenda for the staff meeting.',
+            'Share the time, date, and agenda with the teachers.',
+            'Plan the meeting flow.',
+            'Share the discussion points with teachers.',
+            'Ask any teacher to write minutes during the meeting.',
+            'Discuss the possible agenda for the next meeting.',
+            'Ask teachers for feedback and document it.'
           ],
       },
     ]
@@ -225,24 +224,24 @@ export const cardsData: Card[] = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ',
     image: 'assets/images/micro-improve/m5.png',
     buttonLabel: 'Discover',
-    route: '/domain/practices',
+    route: '/domain/inclusive-practices',
     blogs: [
       {
         title: 'Sensitization for inclusion',
-        description: 'To sensitize teachers and SMCs towards under represented groups',
+        description: 'To sensitize teachers and SMCs towards under represented groups.',
         tags: ['Education Leader'],
         date: '2 weeks',
-        objective: 'To improve the resources available in the school',
+        objective: 'To improve the resources available in the school.',
         sqaDomain: 'Inclusive Practices',
         subCategory: 'Physical Infrastructure',
         stepsTaken:[
-          'Collect data on the under-represented groups\' (SEDGs) children in your school/community',
-          'Communicate date and agenda with teachers and SMC members for a meeting',
-          'Share the data collected on the SEDGs with teachers and SMCs in the meeting',
-          'List down the challenges in access to their education in the meeting',
-          'Conduct an open forum to understand the views of teachers and SMCs',
-          'Identify the approaches to include under-represented groups in the school',
-          'Plan for a follow-up meeting to discuss the implementation of the identified approaches for inclusion',
+          'Collect data on the under-represented groups\' (SEDGs) children in your school/community.',
+          'Communicate date and agenda with teachers and SMC members for a meeting.',
+          'Share the data collected on the SEDGs with teachers and SMCs in the meeting.',
+          'List down the challenges in access to their education in the meeting.',
+          'Conduct an open forum to understand the views of teachers and SMCs.',
+          'Identify the approaches to include under-represented groups in the school.',
+          'Plan for a follow-up meeting to discuss the implementation of the identified approaches for inclusion.',
           'Document the minutes of the meeting'
         ],
       },
@@ -255,29 +254,29 @@ export const cardsData: Card[] = [
         sqaDomain: 'Inclusive Practices',
         subCategory: 'Physical Infrastructure',
         stepsTaken:[
-          'Plan to visit the schools in the cluster',
-          'Visit to assess the current resources and infrastructure available in the schools',
-          'Detail the needs of the schools which need to be procured',
-          'Create a proposal for the procurement of resources for schools in the cluster',
-          'Share the proposal with the BEO/BRP'
+          'Plan to visit the schools in the cluster.',
+          'Visit to assess the current resources and infrastructure available in the schools.',
+          'Detail the needs of the schools which need to be procured.',
+          'Create a proposal for the procurement of resources for schools in the cluster.',
+          'Share the proposal with the BEO/BRP.'
         ]
       },
       {
         title: 'Unity in Diversity',
         description: 'Using Republic day as an opportunity to help bridge the gap created by the pandemic and once again inculcate the sense of belonging by organizing an event where each stakeholder involve gets the opportunity to present their views and interact with each other.',
-        tags: ['Head teacher'],
+        tags: ['HT'],
         date: '1 Month',
-        objective: 'HT will be able to involve community to conduct Republic day effectively',
+        objective: 'HT will be able to involve community to conduct Republic day effectively.',
         sqaDomain: 'Inclusive Practices',
         subCategory: 'Physical Infrastructure',
         stepsTaken: [
-          'Organize & conduct a meeting with teachers to discuss Republic Day',
-          'List down the activities for the event',
-          'Identify ways in which people in the community can contribute to the event',
-          'Reach out to the community to support the event',
-          'Allocate tasks of the event among the teachers and community',
-          'Conduct the Republic Day event',
-          'Take feedback from the attendees of the event'
+          'Organize & conduct a meeting with teachers to discuss Republic Day.',
+          'List down the activities for the event.',
+          'Identify ways in which people in the community can contribute to the event.',
+          'Reach out to the community to support the event.',
+          'Allocate tasks of the event among the teachers and community.',
+          'Conduct the Republic Day event.',
+          'Take feedback from the attendees of the event.'
         ]
       },
     ]
@@ -287,58 +286,58 @@ export const cardsData: Card[] = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
     image: 'assets/images/micro-improve/m6.png',
     buttonLabel: 'Get Started',
-    route: '/domain/management',
+    route: '/domain/management-and-governance',
     blogs: [
       {
         title: 'Building a Shared School Vision',
-        description: 'The HM understands the importance of having good school resources',
+        description: 'The HM understands the importance of having good school resources.',
         tags: ['School Leaders'],
         date: '2 weeks',
-        objective: 'School leaders (Principals, HMs and HTs) will conduct activities for increasing enrolment of students in their schools.',
+        objective: 'School leaders (Principals, HM and HTs) will conduct activities for increasing enrolment of students in their schools.',
         sqaDomain: 'Management & Governance',
         subCategory: 'School Vision',
         stepsTaken: [
-          'Plan and invite all staff members for a learning circle',
-          'During the learning circle, discuss and gather info about the present situation of the school',
-          'Identify and make note of the top priorities of the school',
-          'Write together a clear shared vision statement',
-          'Finalize the vision statement using the checklist',
-          'Conclude the learning circle with action steps for achieving the vision',
-          'Collect feedback from staff members on their experience'
+          'Plan and invite all staff members for a learning circle.',
+          'During the learning circle, discuss and gather info about the present situation of the school.',
+          'Identify and make note of the top priorities of the school.',
+          'Write together a clear shared vision statement.',
+          'Finalize the vision statement using the checklist.',
+          'Conclude the learning circle with action steps for achieving the vision.',
+          'Collect feedback from staff members on their experience.'
         ]
       },
        {
         title: 'Making the Vision Come Alive',
-        description: 'The HM understands the importance of having good school resources',
+        description: 'The HM understands the importance of having good school resources.',
         tags: ['School Leaders'],
         date: '2 weeks',
         objective: 'Block and district level officials will support school leaders in conducting enrolment program to increase the enrolment in their schools.',
         sqaDomain: 'Management & Governance',
         subCategory: 'Communication with Community',
         stepsTaken:[
-          'Conduct a meeting to plan activities for the campaign with staff members',
-          'Create a schedule & assign responsibilities for conducting the activities',
-          'Invite the parents and students to participate in the campaign',
-          'Conduct the activities for the school vision campaign',
-          'Capture the best moments of the campaign',
-          'Reflect on the campaign using this form'
+          'Conduct a meeting to plan activities for the campaign with staff members.',
+          'Create a schedule & assign responsibilities for conducting the activities.',
+          'Invite the parents and students to participate in the campaign.',
+          'Conduct the activities for the school vision campaign.',
+          'Capture the best moments of the campaign.',
+          'Reflect on the campaign using this form.'
         ]
       },
        {
         title: 'Aao School Chalein',
-        description: 'The HM understands the importance of having good school resources',
-        tags: ['Principals', 'HMs', 'HTs'],
+        description: 'The HM understands the importance of having good school resources.',
+        tags: ['Principal', 'HM', 'HT'],
         date: '1 Month',
         objective: 'To engage with teachers and SMC members to create a plan to bring back students who have dropped out to school.',
         sqaDomain: 'Management & Governance',
         subCategory: 'Admission Drive',
         stepsTaken:[
-          'Collect and analyze the enrollment data from the last 5 years',
-          'Conduct a meeting with teachers and SMC members to discuss and set the enrollment target for this year',
-          'Form a working committee and plan activities and timeline for the enrollment program',
-          'Conduct different enrollment activities along with the working committee',
-          'Calculate the percentage increase in enrollment from the last year',
-          'Create an enrollment report'
+          'Collect and analyze the enrollment data from the last 5 years.',
+          'Conduct a meeting with teachers and SMC members to discuss and set the enrollment target for this year.',
+          'Form a working committee and plan activities and timeline for the enrollment program.',
+          'Conduct different enrollment activities along with the working committee.',
+          'Calculate the percentage increase in enrollment from the last year.',
+          'Create an enrollment report.'
         ]
       }
     ]
@@ -346,116 +345,116 @@ export const cardsData: Card[] = [
   // data not provided for leadership
   {
     title: 'Leadership',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     image: 'assets/images/micro-improve/m7.png',
     buttonLabel: 'View Details',
     route: '/domain/leadership',
     blogs: [
       {
         title: 'Game Day with parents',
-        description: 'The HM understands the importance of having good school resources',
+        description: 'The HM understands the importance of having good school resources.',
         tags: ['HM'],
         date: '2 weeks',
-        objective: 'To improve the resources available in the school',
+        objective: 'To improve the resources available in the school.',
         sqaDomain: '',
         subCategory: 'Parent Engagement',
         stepsTaken: [
-          "Assess the current resources and infrastructure available in the school",
-          "Detail the needs of the school",
-          "Identify resources that the community can support with",
-          "List the requirements which needs to be procured",
-          "Share the list with the CRP",
+          "Assess the current resources and infrastructure available in the school.",
+          "Detail the needs of the school.",
+          "Identify resources that the community can support with.",
+          "List the requirements which needs to be procured.",
+          "Share the list with the CRP.",
         ]
       },
       {
         title: 'Gender Equitable Parenting ',
-        description: 'The HM understands the importance of having good school resources',
+        description: 'The HM understands the importance of having good school resources.',
         tags: ['HM'],
         date: '2 weeks',
-        objective: 'To improve the resources available in the school',
+        objective: 'To improve the resources available in the school.',
         sqaDomain: '',
         subCategory: 'Parent Engagement',
         stepsTaken: [
-          "Assess the current resources and infrastructure available in the school",
-          "Detail the needs of the school",
-          "Identify resources that the community can support with",
-          "List the requirements which needs to be procured",
-          "Share the list with the CRP",
+          "Assess the current resources and infrastructure available in the school.",
+          "Detail the needs of the school.",
+          "Identify resources that the community can support with.",
+          "List the requirements which needs to be procured.",
+          "Share the list with the CRP.",
         ]
       },
       {
         title: 'పిల్లలకోసం PTM',
-        description: 'The HM understands the importance of having good school resources',
+        description: 'The HM understands the importance of having good school resources.',
         tags: ['HM'],
         date: '2 weeks',
-        objective: 'To improve the resources available in the school',
+        objective: 'To improve the resources available in the school.',
         sqaDomain: '',
         subCategory: 'Parent Engagement',
         stepsTaken: [
-          "Assess the current resources and infrastructure available in the school",
-          "Detail the needs of the school",
-          "Identify resources that the community can support with",
-          "List the requirements which needs to be procured",
-          "Share the list with the CRP",
+          "Assess the current resources and infrastructure available in the school.",
+          "Detail the needs of the school.",
+          "Identify resources that the community can support with.",
+          "List the requirements which needs to be procured.",
+          "Share the list with the CRP.",
         ]
       }
     ]
   },
   {
-    title: 'Beneficiary satisfaction',
+    title: 'Beneficiary Satisfaction',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
     image: 'assets/images/micro-improve/m2.png',
     buttonLabel: 'See More',
-    route: '/domain/beneficiary',
+    route: '/domain/beneficiary-satisfaction',
     blogs: [
       {
         title: 'Enabling collaboration between school and parents',
         description: 'Fostering collaboration between schools and parents involves creating open channels for communication, shared educational goals, and active engagement to ensure the holistic development and success of students.',
-        tags: ['Head Teachers'],
+        tags: ['HT'],
         date: '1 month',
-        objective: 'Develop parent engagement plan',
+        objective: 'Develop parent engagement plan.',
         sqaDomain: 'Beneficiary satisfaction',
         subCategory: 'Parent Engagement',
         stepsTaken: [
-          'Identify the factors that motivate/demotivate parents to participate in school activities',
-          'Take suggestions from SMC/standing committee members on parents\' involvement for improving students\' learning',
-          'Conduct a staff meeting to discuss parents\' expectations to improve students\' learning and enablers/barriers for the same',
-          'List down priority areas for parents\' engagement through meeting reflections',
-          'Develop an annual calendar of parent engagement activities'
+          'Identify the factors that motivate/demotivate parents to participate in school activities.',
+          'Take suggestions from SMC/standing committee members on parents\' involvement for improving students\' learning.',
+          'Conduct a staff meeting to discuss parents\' expectations to improve students\' learning and enablers/barriers for the same.',
+          'List down priority areas for parents\' engagement through meeting reflections.',
+          'Develop an annual calendar of parent engagement activities.'
         ]
       },
        {
         title: 'Learning at Home',
         description: 'Fostering collaboration between schools and parents involves creating open channels for communication, shared educational goals, and active engagement to ensure the holistic development and success of students.',
-        tags: ['Head Teachers'],
+        tags: ['HT'],
         date: '1 month',
-        objective: "Orienting parents on how they can engage in students' learning process at home ",
+        objective: "Orienting parents on how they can engage in students' learning process at home.",
         sqaDomain: 'Beneficiary satisfaction',
         subCategory: 'Parent Engagement',
         stepsTaken:[
-          'Collaborate with teachers/SMC members to conduct home visits to understand the home scenario',
-          'Conduct a staff meeting to discuss & prepare guidelines for parents\' engagement in the student learning process at home',
-          'Organize a session for parents to orient on the importance of parental engagement in children\'s learning',
-          'Discuss the guidelines with parents and take their suggestions on it',
-          'Finalize and share the guidelines with them'
+          'Collaborate with teachers/SMC members to conduct home visits to understand the home scenario.',
+          'Conduct a staff meeting to discuss & prepare guidelines for parents\' engagement in the student learning process at home.',
+          'Organize a session for parents to orient on the importance of parental engagement in children\'s learning.',
+          'Discuss the guidelines with parents and take their suggestions on it.',
+          'Finalize and share the guidelines with them.'
         ]
       },
        {
         title: 'Game day with parents',
         description: 'Fostering collaboration between schools and parents involves creating open channels for communication, shared educational goals, and active engagement to ensure the holistic development and success of students.',
-        tags: ['Head Teachers'],
+        tags: ['HT'],
         date: '1 month',
-        objective: 'To build an understanding about the importance of regular attendance in the classroom',
+        objective: 'To build an understanding about the importance of regular attendance in the classroom.',
         sqaDomain: 'Beneficiary satisfaction',
         subCategory: 'Parent Engagement',
         stepsTaken: [
-          'Invite parents with invitation cards designed by students',
-          'During staff meeting, curate benefits & consequences of regular & irregular attendance respectively',
-          'During staff meeting, design game(s) with teachers & assign them roles as Facilitator, Co-facilitator, Observer for different games',
-          'During the game day, discuss benefits & consequences of regular & irregular attendance respectively with parents',
-          'During the game day, acknowledge parents of students who attend school regularly',
-          'Post game day, develop a collaborative action plan to overcome attendance barriers discussed with parents & teachers',
-          'Post game day, upload Self-Evaluation form and photographs from the "game day"'
+          'Invite parents with invitation cards designed by students.',
+          'During staff meeting, curate benefits & consequences of regular & irregular attendance respectively.',
+          'During staff meeting, design game(s) with teachers & assign them roles as Facilitator, Co-facilitator, Observer for different games.',
+          'During the game day, discuss benefits & consequences of regular & irregular attendance respectively with parents.',
+          'During the game day, acknowledge parents of students who attend school regularly.',
+          'Post game day, develop a collaborative action plan to overcome attendance barriers discussed with parents & teachers.',
+          'Post game day, upload Self-Evaluation form and photographs from the "game day."'
         ]
       }
     ]
@@ -577,9 +576,12 @@ export const sortOptions: string[] = [
 export const roleOptions : string[] =  [
     "Teachers",
     "HM",
+    "HT",
     "SMC",
     "Education Leader",
-    "Panchayat"
+    "Panchayat",
+    "School Leaders",
+    "Principal"
 ]
 export interface ExposureVisit {
   objective: string;

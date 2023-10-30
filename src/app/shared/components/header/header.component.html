@@ -43,7 +43,36 @@
     </div>
   </div>
 
-  <nav class="sm:h-12 sm:p-3 nav px-8">
+  <div>
+    <div class="hidden sm:block">
+      <nav class="h-12 p-3 nav px-8">
+        <ul class="flex gap-3 flex-wrap items-center">
+          <li class="px-4" *ngFor="let link of navLinks">
+            <a class="text-sm text-white" [routerLink]="link.route">{{ link.label }}</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="sm:hidden mx-2 my-2 menu-new">
+      <div (click)="toggleMenu()" class="cursor-pointer">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    
+    <div *ngIf="isMenuOpen" class="menu h-screen">
+      <i class="material-icons icon-gradient-blue me-1 align-middle text-white absolute	p-2 right-0" (click)="toggleMenu()">
+        close
+      </i>
+      <ul class="flex flex-col gap-3 items-center">
+        <li class="px-4" *ngFor="let link of navLinks">
+          <a class="text-sm text-black" [routerLink]="link.route">{{ link.label }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- <nav class="sm:h-12 sm:p-3 nav px-8">
     <ul class="flex gap-3 flex-wrap items-center">
       <li class="px-4" *ngFor="let link of navLinks">
         <a class="text-sm text-white" [routerLink]="link.route">{{
@@ -51,7 +80,7 @@
         }}</a>
       </li>
     </ul>
-  </nav>
+  </nav> -->
 </header>
 <header *ngIf="!isHomePage">
   <div class="back-nav cursor-pointer">
@@ -74,7 +103,6 @@
 
       <div *ngIf="showInfraHead" class="infra-texts capitalize">
           {{ clickedCardTitle }}
-
       </div>
     </div>
 

@@ -17,6 +17,9 @@
   /* opacity: 60%; */
   border: 1px solid var(--blog-color);
 }
+.blog:hover {
+  background-color: var(--white-color);
+}
 .date {
   font-size: 1.2rem;
   color: var(--charcoal-gray);

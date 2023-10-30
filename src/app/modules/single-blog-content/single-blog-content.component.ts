@@ -13,18 +13,6 @@ export class SingleBlogContentComponent implements OnInit, OnDestroy {
   currentIdx = 0;
   blogData: any[] = []
   ngOnInit() {
-    // this._as.blogSelected.subscribe((index: number) => {
-    //   console.log(index, "index")
-    //   // NOTE: Ye check Mai hta dungi baad me, Abhi k liye additional check lgaya hai coz exposureVisit me 2 he data hai.
-
-    //   if (index > 1) {
-    //     index = 0
-    //   }
-
-
-    //   this.exp = exposureVisit[index]
-    // })
-
 
     this._as.blogSelected.subscribe((data: { content: any, index: number }) => {
       const { content, index } = data
@@ -33,6 +21,9 @@ export class SingleBlogContentComponent implements OnInit, OnDestroy {
       this.blogData = content
 
       this.exp = this.blogData[this.currentIdx]
+
+      localStorage.setItem('blogData', JSON.stringify(this.blogData));
+
     })
 
 
@@ -43,6 +34,12 @@ export class SingleBlogContentComponent implements OnInit, OnDestroy {
         this.prevClickHandler()
       }
     })
+
+     const storedBlogData = localStorage.getItem('blogData');
+      if (storedBlogData) {
+        this.blogData = JSON.parse(storedBlogData);
+        this.exp = this.blogData[this.currentIdx];
+      }
   }
 
   prevClickHandler() {

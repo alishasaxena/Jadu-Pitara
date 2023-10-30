@@ -33,7 +33,7 @@
   background-image: url(../../../assets/images/bg.png);
   background-size: cover;
   background-blend-mode: color-dodge;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -72,6 +72,14 @@
   .bar-options {
     justify-content: center;
   }
+
+  .impact-story {
+    align-items: center;
+  }
+  .desc-steps {
+    width: 56%;
+    margin-top: 2rem;
+  }
 }
 @media screen and (max-width: 480px) {
   .search-bar {
@@ -87,3 +95,13 @@
     justify-content: center;
   }
 }
+
+/* @media screen and (min-width: 768px) {
+  .impact-story {
+    align-items: center;
+  }
+  .desc-steps {
+    width: 56%;
+    margin-top: 2rem;
+  }
+} */

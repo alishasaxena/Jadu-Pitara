@@ -18,6 +18,7 @@ export class HeaderComponent implements OnInit {
   cards = cardsData;
   // currentUrl = window.location.pathname;
   clickedCardTitle: string = '';
+  isOpen: boolean = false;
 
 
 
@@ -43,6 +44,8 @@ export class HeaderComponent implements OnInit {
 
     if (event.url.split('/')[1] === "domain") {
       this.showInfraHead = true
+      this.clickedCardTitle = event.url.split('/')[2].replace(/-/g, ' ');
+      console.log(this.clickedCardTitle,event.url.split('/'), ' this.clickedCardTitle')
     } else {
       this.showInfraHead = false
     }
@@ -59,6 +62,12 @@ export class HeaderComponent implements OnInit {
 
   prevNextClickHandler(eventType: string) {
     this._as.onPrevNextClick.emit(eventType)
+  }
+
+  isMenuOpen = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
   }
 
 }

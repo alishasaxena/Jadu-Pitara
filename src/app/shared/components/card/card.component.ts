@@ -1,6 +1,6 @@
 // card.component.ts
 
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AppServiceService } from 'src/app/services/app-service.service';
 
@@ -9,7 +9,7 @@ import { AppServiceService } from 'src/app/services/app-service.service';
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css']
 })
-export class CardComponent {
+export class CardComponent implements OnInit {
   @Input() title!: string;
   @Input() description!: string;
   @Input() imageSrc!: string;
@@ -20,6 +20,10 @@ export class CardComponent {
   active: boolean = false;
 
   constructor(private router: Router, public _as: AppServiceService) { }
+  ngOnInit(): void {
+    console.log('kdhgfej')
+
+  }
 
   onCardHover() {
     this.active = true;
@@ -30,12 +34,10 @@ export class CardComponent {
   }
 
   onCardClickHandler() {
-    setTimeout(() => {
       // console.log(this.blogData)
-      this._as.shareCardData(this.blogData);
-      this._as.updateClickedCardTitle(this.title);
-      console.log(this.title, 'crltlx')
-    }, 200);
+    this._as.shareCardData(this.blogData);
+    this._as.updateClickedCardTitle(this.title);
     this.router.navigate([this.link]);
+
   }
 }

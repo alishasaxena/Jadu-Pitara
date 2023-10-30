@@ -34,7 +34,7 @@
       aria-labelledby="dropdownHelperButton"
     >
       <li *ngFor="let list of lists; let i = index">
-        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600" (click)="selectOption(list)">
+        <div class="flex p-2 rounded  dark:hover:bg-gray-600" (click)="selectOption(list)">
         <div class="inline-flex items-center" >
           <label class="relative flex cursor-pointer items-center rounded-full" for="checkbox" data-ripple-dark="true">
             <input type="checkbox"

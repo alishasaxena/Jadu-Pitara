@@ -62,4 +62,9 @@
     /* height: 30rem; */
     margin-bottom: 0;
   }
+  @media (min-width: 512px) and (max-width: 702px) {
+    .hero-section {
+      background-size: cover;
+    }
+  }
 }

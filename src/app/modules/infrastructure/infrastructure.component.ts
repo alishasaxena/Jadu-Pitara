@@ -29,10 +29,23 @@ export class InfrastructureComponent implements OnInit {
       console.log(data, "data")
       this.blogs = [...data]
       this.blogsData = [...data]
+      localStorage.setItem('blogsData', JSON.stringify(data));
     })
+
+     const storedBlogData = localStorage.getItem('blogsData');
+      if (storedBlogData) {
+        this.blogs = JSON.parse(storedBlogData);
+        this.blogsData = JSON.parse(storedBlogData);
+      } else {
+        this.blogs = [...this._as.selectedCardBlogData];
+        this.blogsData = [...this._as.selectedCardBlogData];
+        localStorage.setItem('blogsData', JSON.stringify(this.blogs));
+      }
 
     this.blogs = [...this._as.selectedCardBlogData]
     this.blogsData = [...this._as.selectedCardBlogData]
+
+  
 
   }
 
@@ -67,11 +80,11 @@ export class InfrastructureComponent implements OnInit {
   }
 
   sortedCardsAtoZ() {
-    this.blogs.sort((a, b) => a.title.localeCompare(b.title));
+    this.blogs.sort((a, b) => a.title.localeCompare(b.title,  'en', { sensitivity: 'base' }));
   }
 
   sortedCardsZtoA() {
-    this.blogs.sort((a, b) => b.title.localeCompare(a.title));
+    this.blogs.sort((a, b) => b.title.localeCompare(a.title,  'en', { sensitivity: 'base' }));
   }
 
   handleSortOptionSelected(option: string) {

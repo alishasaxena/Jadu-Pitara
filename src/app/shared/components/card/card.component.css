@@ -48,7 +48,7 @@
   background-color: var(--primary-color);
   color: var(--white-color);
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 0.625rem;
   border-radius: 6.25rem;
@@ -56,7 +56,8 @@
   width: fit-content;
   padding: 0.3rem 1rem;
   margin: 0 auto;
-  /* margin-top: 1.62rem; */
+  margin-top: 1.2rem;
+  margin-left: 0;
 }
 
 /* responsive */

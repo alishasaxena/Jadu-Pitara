@@ -48,7 +48,7 @@
 .infra-texts {
   text-align: center;
   font-family: Happy Monkey;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -108,7 +108,7 @@
   color: var(--white-color);
   text-align: center;
   font-family: Happy Monkey;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 200;
   line-height: normal;
@@ -120,11 +120,57 @@
   margin-left: 8rem;
 }
 
-@media only screen and (max-width: 700px) {
+.bar {
+  width: 20px;
+  height: 2px;
+  background-color: var(--text-color);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.menu {
+  position: absolute;
+  top: 0; /* Adjust as needed */
+  right: 0; /* Adjust as needed */
+  background-color: var(--primary-color);
+  /* padding: 10px; */
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+.menu ul {
+  margin-top: 2rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1rem;
+  /* width: 100%; */
+}
+
+.menu ul li {
+  border-bottom: 0.5px solid var(--normal-gray);
+  padding-bottom: 1rem;
+  width: 100%;
+}
+.menu a {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.menu-new {
+  top: -5px;
+  right: 0;
+  position: absolute;
+}
+
+@media only screen and (max-width: 900px) {
   .mini-header {
     display: none;
   }
 
+  .vidya-text {
+    font-size: 1rem;
+  }
   .vidya-text-wrap {
     margin: 0 auto;
   }
