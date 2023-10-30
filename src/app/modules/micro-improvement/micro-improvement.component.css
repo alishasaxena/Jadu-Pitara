@@ -32,3 +32,59 @@
   letter-spacing: 0.01963rem;
   margin-top: 0.62rem;
 }
+
+/* Small Screen */
+@media only screen and (max-width: 640px) {
+  .sqa-micro {
+    padding: 2rem;
+  }
+  .card-wrapper {
+    padding: 0;
+    gap: 1rem;
+  }
+  .sqa-micro h1 {
+    font-size: 1.5rem;
+  }
+  .sqa-micro p {
+    font-size: 1rem;
+  }
+}
+
+/* Medium Screen */
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .small-screen,
+  .large-screen {
+    display: none;
+  }
+
+  .medium-screen,
+  .extra-large-screen {
+    display: block;
+  }
+}
+
+/* Large Screen */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .small-screen,
+  .medium-screen,
+  .extra-large-screen {
+    display: none;
+  }
+
+  .large-screen {
+    display: block;
+  }
+}
+
+/* Extra Large Screen */
+@media only screen and (min-width: 1281px) {
+  .small-screen,
+  .medium-screen,
+  .large-screen {
+    display: none;
+  }
+
+  .extra-large-screen {
+    display: block;
+  }
+}

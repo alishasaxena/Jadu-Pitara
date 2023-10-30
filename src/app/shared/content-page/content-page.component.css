@@ -1,6 +1,7 @@
 .main-content {
   padding: 3.12rem;
   /* padding-bottom: 0; */
+  margin-top: 3.33rem;
 }
 .content {
   background: var(--light-gray);
@@ -105,7 +106,7 @@
 .list-steps {
   display: flex;
   align-items: center;
-  gap: 2.81rem;
+  gap: 1.81rem;
   /* flex-wrap: wrap; */
 }
 .desc-steps {
@@ -147,14 +148,27 @@ iframe {
   width: 31.25rem;
 }
 
-@media screen and (min-width: 300px) and (max-width: 900px) {
+@media (max-width: 1200px) {
+  .desc-steps {
+    flex-wrap: nowrap;
+  }
+  .list-steps {
+    gap: 0.81rem;
+  }
+  .steps-content {
+    margin: 0px 0.12rem;
+    width: 62%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
   .objective {
     font-size: 1rem;
     padding: 2rem 1rem;
   }
 
   .description-content p {
-    font-size: 0.6rem;
+    font-size: 0.875rem;
   }
   .description-content span {
     font-size: 0.9rem;
@@ -176,10 +190,12 @@ iframe {
   }
   .content {
     padding: 0;
+    padding-bottom: 2rem;
   }
   .steps-content {
     width: 100%;
-    margin: 0 1rem;
+    margin: 0.75rem 1rem;
+    gap: 1rem;
   }
   iframe {
     width: 12rem;
@@ -190,9 +206,14 @@ iframe {
   .impact-story p {
     font-size: 1rem;
   }
+  .main-content {
+    padding: 1.12rem;
+  }
+  .desc-steps {
+    flex-wrap: wrap;
+  }
 }
-
-@media screen and (min-width: 900px) and (max-width: 1300px) {
+/* @media screen and (min-width: 900px) and (max-width: 1300px) {
   .impact-story {
     align-items: center;
   }
@@ -200,4 +221,4 @@ iframe {
     width: 56%;
     margin-top: 2rem;
   }
-}
+} */

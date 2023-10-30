@@ -6,7 +6,7 @@
   place-items: center;
 }
 .infra {
-  padding-top: 3.33rem;
+  padding-top: 5.33rem;
 }
 .bar-options {
   display: flex;
@@ -26,7 +26,7 @@
 .filter-buttons {
   display: flex;
   gap: 3.12rem;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .infra {
@@ -36,6 +36,33 @@
   /* height: 100vh; */
 }
 
+.search-bar-h {
+  height: 3rem;
+}
+
+.blog-svg img {
+  opacity: 60%;
+  height: 16rem;
+}
+
+.blog-svg h1 {
+  font-family: "Happy Monkey";
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  color: var(--white-color);
+  font-weight: 800;
+  padding: 0;
+  opacity: 60%;
+}
+.blog-svg {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-top: 16vh;
+}
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   .blog-section {
     display: grid;
@@ -71,6 +98,13 @@
   }
   .bar-options {
     justify-content: center;
+    display: flex;
+    gap: 1.5rem;
+    align-self: stretch;
+    width: 100%;
+    padding: 0 5.74rem;
+    flex-wrap: wrap;
+    padding: 0 2rem;
   }
 
   .impact-story {
@@ -80,19 +114,30 @@
     width: 56%;
     margin-top: 2rem;
   }
+  .filter-buttons {
+    justify-content: space-between;
+    gap: 1rem;
+    /* width: 100%; */
+  }
+  .search-bar-h {
+    height: 2.2rem;
+  }
 }
 @media screen and (max-width: 480px) {
   .search-bar {
-    width: 100%;
+    width: 22rem;
   }
 
   .bar-options {
-    text-align: center;
-    padding-top: 1rem;
+    padding: 0 2rem;
   }
 
   .filter-buttons {
-    justify-content: center;
+    justify-content: space-between;
+    /* width: 100%; */
+  }
+  .search-bar-h {
+    height: 2.2rem;
   }
 }
 

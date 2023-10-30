@@ -2,9 +2,9 @@
   <div class="flex bar-options">
     <div class="search-options">
       <!-- search component -->
-      <div class="max-w-2xl mx-auto search-bar">
+      <div class="max-w-2xl mx-auto search-bar ">
         <div
-          class="relative flex items-center w-full h-12 rounded-full focus-within:shadow-lg bg-white overflow-hidden"
+          class="relative flex items-center w-full rounded-full focus-within:shadow-lg bg-white overflow-hidden search-bar-h"
         >
           <div class="grid place-items-center h-full w-12 text-gray-300">
             <svg
@@ -51,7 +51,7 @@
     </div>
   </div>
 
-  <div class="blog-section">
+  <div class="blog-section" *ngIf="blogs.length > 0">
     <div *ngFor="let blog of blogs; let idx = index">
       <app-blog
         [date]="blog.date"
@@ -62,5 +62,9 @@
         [blogData]="blogs"
       ></app-blog>
     </div>
+  </div>
+  <div *ngIf="blogs.length === 0" class=" blog-svg">
+    <h1>No Results Found.</h1>
+    <img class="w-96 h-96" src="../../../assets/images/empty.svg" />
   </div>
 </section>
