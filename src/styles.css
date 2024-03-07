@@ -12,12 +12,10 @@ body {
   background-image: url(assets/images/bg.png);
   background-size: cover;
   background-blend-mode: color-dodge;
-  font-family: "Happy Monkey", sans-serif;
 }
 .micro-title {
   color: var(--white-color);
   text-align: center;
-  font-family: Happy Monkey;
   font-size: 2.5rem;
   font-weight: 400;
   line-height: normal;
@@ -25,14 +23,10 @@ body {
 }
 .micro-desc {
   color: var(--white-color);
-  text-align: center;
-  font-family: Happy Monkey;
+  text-align: justify;
   font-size: 1.5rem;
   font-weight: 400;
-  line-height: normal;
   letter-spacing: 0.01963rem;
-  margin-top: 3.75rem;
-  margin-bottom: 3.75rem;
 }
 /* Media query for smaller screens */
 @media (max-width: 768px) {

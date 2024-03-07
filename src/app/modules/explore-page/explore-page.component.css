@@ -1,13 +1,10 @@
 .main-micro {
-  /* margin: 0 auto;
-    text-align: center; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  /* width: 50%; */
-  /* height: 50%; */
+  gap: 2rem;
 }
 .explore-btn {
   background-color: var(--white-color);
@@ -20,12 +17,8 @@
   color: var(--text-color);
   text-transform: uppercase;
   text-align: center;
-  font-family: Happy Monkey;
-  font-size: 1.2rem;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
-  letter-spacing: 0.01963rem;
+  letter-spacing: 0.1rem;
 }
 
 .explore-btn:hover {
