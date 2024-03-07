@@ -9,6 +9,7 @@
   border-radius: 0.9375rem;
   background: var(--white-color);
   overflow: hidden;
+  transition: height 10s ease-in;
 }
 
 .card:hover {
@@ -17,7 +18,6 @@
 
 .card-title {
   color: var(--text-color);
-  font-family: Happy Monkey;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -57,9 +57,7 @@
   font-size: 0.6rem;
   width: fit-content;
   padding: 0.3rem 1rem;
-  margin: 0 auto;
-  margin-top: 1.2rem;
-  margin-left: 0;
+  /* margin: 0 auto; */
 }
 
 /* responsive */
@@ -86,4 +84,8 @@
   .card img {
     height: 4.5rem !important;
   }
+}
+
+.card ::-webkit-scrollbar {
+  width: 0;
 }

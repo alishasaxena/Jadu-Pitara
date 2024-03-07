@@ -10,15 +10,15 @@
     <img class="rounded-t-lg" [src]="imageSrc" alt="" />
   </a>
   <div class="">
-    <a class="card-title cursor-pointer">
+    <a class="cursor-pointer card-title">
       {{ title }}
     </a>
-    <div *ngIf="active" class="flex flex-col gap-4">
-      <!-- <a>
+    <div *ngIf="active" class="flex flex-col justify-start gap-4">
+      <a>
         <p class="card-description">{{ description }}</p>
-      </a> -->
+      </a>
       <!-- button -->
-      <a class="view-projects-btn cursor-pointer "> View Projects </a>
+      <a class="cursor-pointer view-projects-btn "> View Projects </a>
     </div>
   </div>
 </div>

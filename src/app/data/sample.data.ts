@@ -156,7 +156,7 @@ export const cardsData: Card[] = [
     ]
   },
   {
-    title: 'Human Resources',
+    title: 'Human Resources and School Leadership',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ',
     image: 'assets/images/micro-improve/m4.png',
     buttonLabel: 'Read More',
