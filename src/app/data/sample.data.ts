@@ -36,7 +36,7 @@ export const stats: Stats[] = [
 
 export const cardsData: Card[] = [
   {
-    title: 'Infrastructure',
+    title: 'Access and Infrastructure',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     image: 'assets/images/micro-improve/m1.png',
     buttonLabel: 'Learn More',
@@ -282,7 +282,7 @@ export const cardsData: Card[] = [
     ]
   },
   {
-    title: 'Management & Governance',
+    title: 'Management, Monitoring & Governance',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
     image: 'assets/images/micro-improve/m6.png',
     buttonLabel: 'Get Started',
@@ -341,65 +341,7 @@ export const cardsData: Card[] = [
         ]
       }
     ]
-  },
-  // data not provided for leadership
-  {
-    title: 'Leadership',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    image: 'assets/images/micro-improve/m7.png',
-    buttonLabel: 'View Details',
-    route: '/domain/leadership',
-    blogs: [
-      {
-        title: 'Game Day with parents',
-        description: 'The HM understands the importance of having good school resources.',
-        tags: ['HM'],
-        date: '2 weeks',
-        objective: 'To improve the resources available in the school.',
-        sqaDomain: '',
-        subCategory: 'Parent Engagement',
-        stepsTaken: [
-          "Assess the current resources and infrastructure available in the school.",
-          "Detail the needs of the school.",
-          "Identify resources that the community can support with.",
-          "List the requirements which needs to be procured.",
-          "Share the list with the CRP.",
-        ]
-      },
-      {
-        title: 'Gender Equitable Parenting ',
-        description: 'The HM understands the importance of having good school resources.',
-        tags: ['HM'],
-        date: '2 weeks',
-        objective: 'To improve the resources available in the school.',
-        sqaDomain: '',
-        subCategory: 'Parent Engagement',
-        stepsTaken: [
-          "Assess the current resources and infrastructure available in the school.",
-          "Detail the needs of the school.",
-          "Identify resources that the community can support with.",
-          "List the requirements which needs to be procured.",
-          "Share the list with the CRP.",
-        ]
-      },
-      {
-        title: 'పిల్లలకోసం PTM',
-        description: 'The HM understands the importance of having good school resources.',
-        tags: ['HM'],
-        date: '2 weeks',
-        objective: 'To improve the resources available in the school.',
-        sqaDomain: '',
-        subCategory: 'Parent Engagement',
-        stepsTaken: [
-          "Assess the current resources and infrastructure available in the school.",
-          "Detail the needs of the school.",
-          "Identify resources that the community can support with.",
-          "List the requirements which needs to be procured.",
-          "Share the list with the CRP.",
-        ]
-      }
-    ]
-  },
+  }, 
   {
     title: 'Beneficiary Satisfaction',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
