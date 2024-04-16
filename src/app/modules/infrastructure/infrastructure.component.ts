@@ -26,7 +26,7 @@ export class InfrastructureComponent implements OnInit {
     console.log('jhdfghj')
 
     this._as.cardSelected.subscribe((data: any) => {
-      console.log(data, "data")
+      console.log(data, "datanew")
       this.blogs = [...data]
       this.blogsData = [...data]
       localStorage.setItem('blogsData', JSON.stringify(data));

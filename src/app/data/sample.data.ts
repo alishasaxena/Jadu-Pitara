@@ -43,60 +43,269 @@ export const cardsData: Card[] = [
     route: '/domain/infrastructure',
     blogs: [
       {
-        title: 'School resources',
-        description: 'The HM understands the importance of having good school resources.',
-        tags: ['HM'],
-        date: '2 weeks',
-        objective: 'To improve the resources available in the school.',
-        sqaDomain: 'Infrastructure',
-        subCategory: 'Physical Infrastructure',
-        isVideo: true,
-
-       stepsTaken: [
-        "Assess the current resources and infrastructure available in the school.",
-        "Detail the needs of the school.",
-        "Identify resources that the community can support with.",
-        "List the requirements which need to be procured.",
-        "Share the list with the CRP."
-      ]
-
+        "title": "School resources",
+        "description": "The HM understands the importance of having good school resources.",
+        "tags": ["HM"],
+        "date": "2 weeks",
+        "objective": "To improve the resources available in the school.",
+        "sqaDomain": "Infrastructure",
+        "subCategory": "Physical Infrastructure",
+        "isVideo": true,
+        "stepsTaken": [
+          "Assess the current resources and infrastructure available in the school.",
+          "Detail the needs of the school.",
+          "Identify resources that the community can support with.",
+          "List the requirements which need to be procured.",
+          "Share the list with the CRP."
+        ]
       },
       {
-        title: 'Bringing back the dropouts',
-        description: 'To engage with teachers and SMC members to create a plan to bring back students who have dropped out to school.',
-        tags: ['HT'],
-        date: '1 month',
-        objective: 'To engage teachers and SMC members to create a plan to bring back students who have dropped out to school.',
-        sqaDomain: 'Infrastructure',
-        subCategory: 'Physical Infrastructure',
-        stepsTaken: [
-        'Create a consolidated list of students who have dropped out of school.',
-        'Organise a meeting with teachers and SMC members.',
-        'Identify the reasons for dropouts.',
-        'Identify strategies to bring dropout students back into the school system.',
-        'Create an action plan.',
-        'Assign tasks to members at the meeting based on strategies.',
-        'Implement the strategies.',
-        'Conduct a follow-up session for updates and challenges.',
-        'Document the learnings, challenges, experiences.'
-      ]
-
+        "title": "Bringing back the dropouts",
+        "description": "To engage with teachers and SMC members to create a plan to bring back students who have dropped out to school.",
+        "tags": ["HT"],
+        "date": "1 month",
+        "objective": "To engage teachers and SMC members to create a plan to bring back students who have dropped out to school.",
+        "sqaDomain": "Infrastructure",
+        "subCategory": "Physical Infrastructure",
+        "stepsTaken": [
+          "Create a consolidated list of students who have dropped out of school.",
+          "Organise a meeting with teachers and SMC members.",
+          "Identify the reasons for dropouts.",
+          "Identify strategies to bring dropout students back into the school system.",
+          "Create an action plan.",
+          "Assign tasks to members at the meeting based on strategies.",
+          "Implement the strategies.",
+          "Conduct a follow-up session for updates and challenges.",
+          "Document the learnings, challenges, experiences."
+        ]
       },
       {
-        title: 'School Exposure Visit',
-        description: 'This event may be organized in the village or community a few months before enrolment into Std I and once again once at the time when Std I classes begins.',
-        tags: ['HT', 'SMC'],
-        date: '2 weeks',
-        objective: 'To conduct an exposure visit for parents and students to local primary schools.',
-        sqaDomain: 'Infrastructure',
-        subCategory: 'Physical Infrastructure',
-        stepsTaken: [
-          'Identify the local primary school to visit for exposure.',
-          'Connect with the local primary school HM to schedule an exposure visit.',
-          'Inform parents about the primary school and exposure visit to school.',
-          'Plan the visit to the primary school.',
-          'Plan an interactive session with the primary school HM, teacher, and students.',
-          'Take feedback from parents on the visit.'
+        "title": "School Exposure Visit",
+        "description": "This event may be organized in the village or community a few months before enrolment into Std I and once again once at the time when Std I classes begins.",
+        "tags": ["HT", "SMC"],
+        "date": "2 weeks",
+        "objective": "To conduct an exposure visit for parents and students to local primary schools.",
+        "sqaDomain": "Infrastructure",
+        "subCategory": "Physical Infrastructure",
+        "stepsTaken": [
+          "Identify the local primary school to visit for exposure.",
+          "Connect with the local primary school HM to schedule an exposure visit.",
+          "Inform parents about the primary school and exposure visit to school.",
+          "Plan the visit to the primary school.",
+          "Plan an interactive session with the primary school HM, teacher, and students.",
+          "Take feedback from parents on the visit."
+        ]
+      },
+      {
+        "title": "Community BALA",
+        "description": "Gram Panchayats may undertake various activities such as: paint walls with learning topics/illustrations, toys and easy to-read book libraries, blackboards in public spaces in the community to write stories for children or for children to draw, space for displaying children’s work etc.",
+        "tags": ["SMC", "Panchayat"],
+        "date": "1 month",
+        "objective": "To enable the community to improve the infrastructural development of the community surrounding to make the physical space engaging and lively.",
+        "sqaDomain": "Access",
+        "subCategory": "Physical Infrastructure",
+        "stepsTaken": [
+          "Assess the current resources available in the community for BALA",
+          "Identify spaces that can be used for BALA",
+          "Assign use of those spaces",
+          "Create a list of items that still need to be procured",
+          "Assign/distribute responsibilities among members",
+          "Identify resources that the community can support with",
+          "Share the list with the community/panchayat members",
+          "Make necessary arrangements",
+          "Follow up with the incharge"
+        ]
+      },
+      {
+      "title": "Community Chaupal",
+      "description": "Reading and Telling Stories to the children at schools/Chaupal where grandparents and youth can play and active role in this.",
+      "tags": ["SMC"],
+      "date": "1 month",
+      "objective": "To create spaces where community members and children come together and encourage learning.",
+      "sqaDomain": "Access",
+      "subCategory": "Physical Infrastructure",
+      "stepsTaken": [
+        "Call a meeting",
+        "Decide day/date to conduct community chaupal",
+        "Identify the activities for community chaupal",
+        "Call for community volunteers who can facilitate",
+        "Assign the activities to different facilitators",
+        "Form a WhatsApp group",
+        "Inform parents and students about Community Chaupal through WhatsApp group.",
+        "Start the session by setting context.",
+        "Invite community member to start with the activity.",
+        "Take feedback on the session from parents and students through WhatsApp."
+      ]
+      },
+      {
+        "title": "Enrolment Campaign at Cluster Level",
+        "description": "CRPs work with HMs to conduct the enrolment campaign at a cluster level.",
+        "tags": ["Education Leader"],
+        "date": "1 month",
+        "objective": "To engage teachers and SMC members to create a plan to bring back students who have dropped out to school.",
+        "sqaDomain": "Access",
+        "subCategory": "Physical Infrastructure",
+        "stepsTaken": [
+          "Create a WhatsApp group with Teachers and SMC members",
+          "Set agenda and date of the meeting",
+          "Communicate the date and agenda of the meeting on WhatsApp",
+          "Discuss possible enrolment strategies in the meeting",
+          "List down the tasks for the different enrolment strategies in the meeting",
+          "Distribute the tasks among Teachers and SMC members in the meeting",
+          "Set timelines for completing the tasks in the meeting",
+          "Conduct second meeting based on the timelines of the tasks",
+          "Give feedback to Teachers and SMC members on the tasks in the second meeting",
+          "Plan for roll out in the second meeting",
+          "Conduct a de-brief session post the enrolment campaign",
+          "Document the learnings, challenges, experiences"
+        ]
+      },
+      {
+      "title": "Re-entry of school dropouts",
+      "description": "To engage with teachers and SMC members to create a plan to bring back students who have dropped out to school.",
+      "tags": ["Mantra4Change & ShikshaLokam", "Education Leader"],
+      "date": "1 month",
+      "objective": "To engage with teachers and SMC members to create a plan to bring back students who have dropped out to school.",
+      "sqaDomain": "Access",
+      "subCategory": "Physical Infrastructure",
+      "stepsTaken": [
+        "Create a consolidated list of students who have dropped out of school",
+        "Organise a meeting with the teachers and SMC members",
+        "Identify the reasons for dropouts",
+        "Identify strategies to bring dropout students back into the school system",
+        "Create an action plan",
+        "Assign tasks to members at the meeting based on strategies",
+        "Implement the strategies",
+        "Conduct a follow up session for updates and challenges",
+        "Document the learnings, challenges, experiences"
+      ]
+      },
+      {
+      "title": "Improving infrastructure for students with special needs",
+      "description": "To improve the school infrastructure and resources to increase access for students with special needs.",
+      "tags": ["Mantra4Change & ShikshaLokam", "Education leader"],
+      "date": "1 month",
+      "objective": "To improve the school infrastructure and resources to increase access for students with special needs.",
+      "sqaDomain": "Physical Infrastructure",
+      "subCategory": "Physical Infrastructure",
+      "stepsTaken": [
+        "Create a plan to visit the schools in the cluster",
+        "Visit to assess the current resources and infrastructure available in the schools",
+        "Detail the needs of the schools which needs to be procured",
+        "Create a proposal for the procurements of resources for schools in the cluster",
+        "Share the Proposal with the BEO/BRP"
+      ]
+      },
+      {
+        "title": "Safety March",
+        "description": "HTs takes a walk around school to ensure that the different spaces in the school are ready for children coming back to school.",
+        "tags": ["HT"],
+        "date": "2 weeks",
+        "objective": "HT will take a walk around the school to observe that proper safety measures are implemented.",
+        "sqaDomain": "Sanitation",
+        "subCategory": "Safety",
+        "stepsTaken": [
+          "Conduct a safety walk on planned date",
+          "Use checklist to take notes while conducting the safety walk",
+          "Share the observations with concerned staff",
+          "Create a plan of action",
+          "Follow up with teachers to ensure safety measures are implemented"
+        ]
+      },
+      {
+        "title": "Fun with BALA",
+        "description": "Building as Learning Aid, or BaLA — create a plan to develop the classrooms, the floors, walls, doors, windows, pillars, corridors, the outdoor spaces in and around the school as learning resources.",
+        "tags": ["HT"],
+        "date": "2 weeks",
+        "objective": "HT will be able to improve the infrastructural development within the school to make the physical space engaging and lively",
+        "sqaDomain": "Physical Infrastructure",
+        "subCategory": "Physical Infrastructure",
+        "stepsTaken": [
+          "Assess the current resources available in the school for BALA",
+          "Create a list of items that still needs to be procured",
+          "Share the list with SMC members in the next meeting",
+          "Identify resources that the community can support with",
+          "List the requirements which needs to be procured from the state/cluster/block officials",
+          "Share the list with the state/cluster/block officials",
+          "Create a mechanism to follow up with SMC & officials for the resources"
+        ]
+      },
+      {
+        "title": "Planning infrastructural improvements in Aanganwadis",
+        "description": "CRP will be able to assess the needs and plan accordingly for the infrastructural improvement of anganwadis.",
+        "tags": ["CRPs"],
+        "date": "1 month",
+        "objective": "CRP will be able to assess the needs and plan accordingly for the infrastructural improvement of anganwadis",
+        "sqaDomain": "Physical Infrastructure",
+        "subCategory": "Physical Infrastructure",
+        "stepsTaken": [
+          "List the aanganwadi centers in the clusters",
+          "Create a plan to visit the aanganwadis",
+          "Intimate the aanganwadi coordinator of the proposed visit",
+          "Visit to assess the current resources and infrastructure available in the aanganwadi",
+          "Detail the needs of the aanganwadi center",
+          "Identify resources that the community can support with",
+          "List the requirements which needs to be procured",
+          "Create an improvement plan for all the centers in the cluster",
+          "Submit a report to the BRC"
+        ]
+      },
+      {
+        "title": "Teacher development plan to ensure mental health and nutrition of children",
+        "description": "Structured capacity building program for teachers to ensure healthy life of children (proper nutrition and mental health)",
+        "tags": ["HM"],
+        "date": "3 weeks",
+        "objective": "To build teachers' understanding to address health issues by leveraging different units (social workers, counsellors, community etc.)",
+        "sqaDomain": "Safety (psychological), Sanitation (Health and Hygiene)",
+        "subCategory": "Teacher Development",
+        "stepsTaken": [
+          "Conduct a needs assessment for teachers to know about their understanding of importance of health and nutrition",
+          "Create curriculum based on identified topics",
+          "Identify facilitator for the training",
+          "Schedule the training and circulate the calendar of the program",
+          "Conduct training",
+          "Provide self-learning resources to teachers",
+          "Take inputs/feedback from teachers",
+          "Conduct learning circle",
+          "Observe teachers' class, provide feedback"
+        ]
+      },
+      {
+        "title": "Health Awareness Project",
+        "description": "Awareness on safety measures against COVID-19 is critical in keeping students and the general community safe. An awareness campaign can help spread reliable information on safety measures.",
+        "tags": ["HM"],
+        "date": "4 weeks",
+        "objective": "Awareness on safety measures against COVID-19 is critical in keeping students and the general community safe. An awareness campaign can help spread reliable information on safety measures.",
+        "sqaDomain": "Sanitation (Health and Hygiene)",
+        "subCategory": "Health Awareness",
+        "stepsTaken": [
+          "Create a core school team to work on the awareness campaign",
+          "Along with the school team, look into the documents and discuss relevance and key takeaways",
+          "Finalizing the date and time for a meeting to discuss the awareness campaign",
+          "Invite local healthcare workers and local government representatives, also ASHA and Anganwadi workers to the meeting",
+          "Consolidate reliable information on COVID-19 and get this reviewed by the team",
+          "Conduct the meeting - Identify the ways to raise awareness, roles & responsibilities, and required resources",
+          "Procure materials required for the awareness campaign",
+          "Conduct the awareness campaign for the targeted community as per the plan",
+          "Gather responses from the community members on the awareness",
+          "Analyse the responses and make changes if required to the plan",
+          "Appreciate and celebrate efforts of the school team and others involved"
+        ]
+      },
+      {
+        "title": "Improvising School Infrastructure",
+        "description": "To improve the school infrastructure and resources to increase access for students with special needs.",
+        "tags": ["HM"],
+        "date": "1 month",
+        "objective": "To improve the school infrastructure and resources to increase access for students with special needs.",
+        "sqaDomain": "Physical Infrastructure",
+        "subCategory": "Physical Infrastructure",
+        "stepsTaken": [
+          "Create a plan to visit the schools in the cluster",
+          "Visit to assess the current resources and infrastructure available in the schools",
+          "Detail the needs of the schools which needs to be procured",
+          "Create a proposal for the procurements of resources for schools in the cluster",
+          "Share the Proposal with the BEO/BRP"
         ]
       }
     ]
@@ -109,50 +318,21 @@ export const cardsData: Card[] = [
     route: '/domain/curriculum-pedagogy-assessment',
     blogs: [
       {
-        title: ' Vocabulary Expansion',
-        description: 'The HM understands the importance of having good school resources.',
-        tags: ['Teachers'],
-        date: '1 Month',
-        objective: 'Build vocabulary of student by conducting classroom activities.',
-        sqaDomain: 'curriculum, Pedagogy Assessment',
-        subCategory: 'Physical Infrastructure',
-        stepsTaken: [
-          'Conduct an activity to assess the vocabulary level of students.',
-          'Create a plan of action to introduce thematic vocabulary activities weekly.',
-          'Spend 15 minutes to conduct thematic vocabulary activities and form sentences using newly learned words.',
-          'Assess your students\' vocabulary periodically and make changes to your plan.',
-          'Plan for a classroom-level showcase where students demonstrate their newly learned vocabulary and phrases.'
-        ],
-      },
-     {
-        title: 'कार्ड्स द्वारा हिंदी भाषा शिक्षण',
-        description: 'प्राथमिक कक्षाओं में भाषा और गणित पर सर्वाधिक ध्यान दिया जाता है, परंतु बच्चों को पढ़ाई के दौरान मैंने पाया है कि उन्हें उनकी हिंदी भाषा की किताबों के सामान्य अक्षर पहचानने, बोलने, और लिखने में काफी उलझन होती है।',
-        tags: ['HM', 'Teachers'],
-        date: '10.2.2023',
-        objective: 'मैं अन्य गतिविधियों को खोजने और बच्चों को उनके माध्यम से पढ़ाने का प्रयास कर रही हूँ। मेरा लक्ष्य है कि मेरे विद्यालय के बच्चे वर्गसापेक्ष दक्षताओं को प्राप्त करें और उनके आधार पर आगे की सफलताओं की नींव रखें।',
-        sqaDomain: 'Curriculum, Pedagogy, and Assessment',
-        subCategory: 'Curriculum Planning',
-        stepsTaken: [
-          'मैंने बच्चों द्वारा अक्षरों की सही पहचान हेतु स्वर एवं व्यंजन वाले फ्लैश कार्ड बनाए',
-          'गतिविधियों के माध्यम से अक्षरज्ञान करवाने का प्रयास किया।',
-          'इस गतिविधि में बच्चे कार्ड को देखते हैं और उसपर लिखे अक्षर को पहचानते हैं।',
-          'साथ ही, मैं उस अक्षर से बननेवाले शब्दों को पूछती हूँ, जो दैनिक जीवन में इस्तेमाल होने वाले हैं और बच्चे उनसे भली-भांति अवगत हैं।'
+        "title": "Vocabulary Expansion",
+        "description": "The HM understands the importance of having good school resources.",
+        "tags": ["Teachers"],
+        "date": "1 Month",
+        "objective": "Build vocabulary of student by conducting classroom activities.",
+        "sqaDomain": "curriculum, Pedagogy Assessment",
+        "subCategory": "Physical Infrastructure",
+        "stepsTaken": [
+            "Conduct an activity to assess the vocabulary level of students.",
+            "Create a plan of action to introduce thematic vocabulary activities weekly.",
+            "Spend 15 minutes to conduct thematic vocabulary activities and form sentences using newly learned words.",
+            "Assess your students' vocabulary periodically and make changes to your plan.",
+            "Plan for a classroom-level showcase where students demonstrate their newly learned vocabulary and phrases."
         ]
       },
-       {
-        title: 'शब्दों की चक्री',
-        description: 'वर्ग 2 में हिंदी सिखाते समय बच्चों को छोटे-छोटे शब्द बनाने और पढ़ने में कठिनाई होती थी। मेरे द्वारा बहुत ही प्रयास किया गया, इसके बावजूद बच्चों का मन अधिगम के प्रति नहीं लगता था। बच्चे खेलने-, कूदने और चित्र बनाने में अधिक मन लगाते थे। उन्हें तरह-तरह के खेल खेलना ज्यादा रुचि कर लगता है।',
-        tags: ['HM', 'Teachers'],
-        date: '20.2.2023',
-        objective: 'मेरे द्वारा बनाए गए टीएलएम से बच्चों पर प्रत्यक्ष रूप में प्रभाव पड़ा। बच्चे इस टीएलएम को अपने हाथों से स्पर्श करके, स्वयं करके, चरखी को घुमा कर शब्द बनाना सिखने लगे।',
-        sqaDomain: 'Curriculum, Pedagogy and Assessment',
-        subCategory: 'Teaching Learning Process',
-        stepsTaken: [
-          'बच्चों के मनोभाव को देखते हुए मैंने वर्ग कक्ष को क्रिएटिव बनाने के लिए सोचा। मैंने बच्चों को खेल-खेल में और रोचकता के साथ अधिगम प्राप्ति हेतु स्वनिर्मित एक टीएलएम का निर्माण किया।',
-          'TLM, कबाड़ से जुगाड़ से बनाया',
-          'इस टीएलएम के माध्यम से बच्चे स्वतंत्रता से सीखें। बच्चे खेल-खेल में इसे स्पर्श करके सीखें।'
-        ]
-      }
     ]
   },
   {
