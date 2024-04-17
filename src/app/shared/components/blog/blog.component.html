@@ -1,9 +1,9 @@
 <!-- blog.component.html -->
 
-<a class="blog cursor-pointer" (click)="onBlogItemClickHandler()">
+<a class="cursor-pointer blog" (click)="onBlogItemClickHandler()">
   <div class="date">{{ date }}</div>
   <div class="title">{{ title }}</div>
-<div class="description">{{ description.split(' ').length > 18 ? description.split(' ').slice(0, 18).join(' ') + '...' : description }}</div>
+<div class="description">{{description ? description.split(' ').length > 18 ? description.split(' ').slice(0, 18).join(' ') + '...' : description : 'no description added for this' }}</div>
   <div class="tags">
     <ng-container *ngFor="let tag of tags">
       <span class="tag">{{ tag }}</span>

@@ -1,12 +1,12 @@
-<div class="main-content min-h-screen md:h-full sm:h-full lg:min-h-screen xl:min-h-screen xs:h-full">
+<div class="min-h-screen main-content md:h-full sm:h-full lg:min-h-screen xl:min-h-screen xs:h-full">
     <div class="content">
         <h1 class="objective">
-           <span>Objective:</span> {{objective}}
+           <span>Objective:</span> {{objective ? objective : 'No Objective Added'}}
         </h1>
         <div class="desc-steps">
             <div class="description-content">
                 <p>
-                    <span>Description:</span> {{description}}
+                    <span>Description:</span> {{description ? description : 'No Description Provided'}}
                 </p>
                 <div>
                     <span>Recommended duration:</span>
@@ -16,7 +16,7 @@
                 </div>
                 <div>
                     <span>Recommended for:</span>
-                    <div class="flex gap-2 mt-3 flex-wrap">
+                    <div class="flex flex-wrap gap-2 mt-3">
                         <p *ngFor="let rec of tags" class="tag">
                             {{rec}}
                         </p>
