@@ -1,13 +1,13 @@
 <header *ngIf="isHomePage">
-  <div class="h-9 mini-header px-12 py-3 flex items-center justify-between">
-    <a class="flex items-center flex-wrap gap-2">
+  <div class="flex items-center justify-between px-12 py-3 h-9 mini-header">
+    <a class="flex flex-wrap items-center gap-2">
       <img src="assets/images/india-flag-icon.png" class="flag-img" />
       <a class="text-sm gov-text">Government of India</a>
     </a>
     <div>
-      <ul class="flex items-center flex-wrap gap-2 text-xs list">
+      <ul class="flex flex-wrap items-center gap-2 text-xs list">
         <li>
-          <i class="material-icons icon-gradient-blue me-1 align-middle">
+          <i class="align-middle material-icons icon-gradient-blue me-1">
             important_devices
           </i>
           <a>Main Content</a>
@@ -18,7 +18,7 @@
           <a>A-</a>
         </li>
         <li>
-          <i class="material-icons icon-gradient-blue me-1 align-middle">
+          <i class="align-middle material-icons icon-gradient-blue me-1">
             chrome_reader_mode
           </i>
           <a>Screen Reader</a>
@@ -27,7 +27,7 @@
     </div>
   </div>
   <div class="flex items-center justify-between px-10 py-2 ministery">
-    <div class="ministry-logo flex items-center gap-2">
+    <div class="flex items-center gap-2 ministry-logo">
       <img src="assets/images/gov.png" />
     </div>
     <div class="flex items-center gap-4">
@@ -35,8 +35,8 @@
         <h2 class="vidya-text">Vidya Amrit</h2>
       </div>
       <div class="left-nav">
-        <p class="text-sm px-0">National Digital Education Architecture</p>
-        <span class="text-xs px-0"
+        <p class="px-0 text-sm">National Digital Education Architecture</p>
+        <span class="px-0 text-xs"
           >Digital Infrastructure for the education system</span
         >
       </div>
@@ -45,15 +45,15 @@
 
   <div>
     <div class="hidden sm:block">
-      <nav class="h-12 p-3 nav px-8">
-        <ul class="flex gap-3 flex-wrap items-center">
+      <nav class="h-12 p-3 px-8 nav">
+        <ul class="flex flex-wrap items-center gap-3">
           <li class="px-4" *ngFor="let link of navLinks">
             <a class="text-sm text-white" [routerLink]="link.route">{{ link.label }}</a>
           </li>
         </ul>
       </nav>
     </div>
-    <div class="sm:hidden mx-2 my-2 menu-new">
+    <div class="mx-2 my-2 sm:hidden menu-new">
       <div (click)="toggleMenu()" class="cursor-pointer">
         <div class="bar"></div>
         <div class="bar"></div>
@@ -61,19 +61,19 @@
       </div>
     </div>
     
-    <div *ngIf="isMenuOpen" class="menu h-screen">
-      <i class="material-icons icon-gradient-blue me-1 align-middle text-white absolute	p-2 right-0" (click)="toggleMenu()">
+    <div *ngIf="isMenuOpen" class="h-screen menu">
+      <i class="absolute right-0 p-2 text-white align-middle material-icons icon-gradient-blue me-1" (click)="toggleMenu()">
         close
       </i>
-      <ul class="flex flex-col gap-3 items-center">
+      <ul class="flex flex-col items-center gap-3">
         <li class="px-4" *ngFor="let link of navLinks">
           <a class="text-sm text-black" [routerLink]="link.route">{{ link.label }}</a>
         </li>
       </ul>
     </div>
   </div>
-  <!-- <nav class="sm:h-12 sm:p-3 nav px-8">
-    <ul class="flex gap-3 flex-wrap items-center">
+  <!-- <nav class="px-8 sm:h-12 sm:p-3 nav">
+    <ul class="flex flex-wrap items-center gap-3">
       <li class="px-4" *ngFor="let link of navLinks">
         <a class="text-sm text-white" [routerLink]="link.route">{{
           link.label
@@ -83,7 +83,7 @@
   </nav> -->
 </header>
 <header class="sticky-header" *ngIf="!isHomePage">
-  <div class="back-nav cursor-pointer">
+  <div class="cursor-pointer back-nav">
     <div (click)="goBack()" class="flex gap-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -101,13 +101,13 @@
         />
       </svg>
 
-      <div *ngIf="showInfraHead" class="infra-texts capitalize">
+      <div *ngIf="showInfraHead" class="capitalize infra-texts">
           {{ clickedCardTitle }}
       </div>
     </div>
 
-    <div class="flex items-center w-full ml-9 flex-wrap" *ngIf="isContentPage">
-      <div class="flex gap-6 justify-center arr m-auto">
+    <div class="flex flex-wrap items-center w-full ml-9" *ngIf="isContentPage">
+      <div class="flex justify-center gap-6 m-auto arr">
         <div (click)="prevNextClickHandler('prev')">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -144,7 +144,7 @@
         </div>
       </div>
       <div>
-        <button class="dwn-btn">
+        <button (click)="downloadPdf()" class="dwn-btn">
           <span>Download</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"

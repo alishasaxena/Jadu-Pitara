@@ -4,6 +4,7 @@ import { Router, NavigationEnd } from '@angular/router';
 import { cardsData, CardsData, navigationLinks } from 'src/app/data/sample.data';
 import { Location } from '@angular/common';
 import { AppServiceService } from 'src/app/services/app-service.service';
+import { AppComponent } from '../../../app.component'; 
 
 @Component({
   selector: 'app-header',
@@ -20,9 +21,7 @@ export class HeaderComponent implements OnInit {
   clickedCardTitle: string = '';
   isOpen: boolean = false;
 
-
-
-  constructor(private dataService: DataService, private router: Router, private location: Location, public _as: AppServiceService, private _appService: AppServiceService) { }
+  constructor(private dataService: DataService, private router: Router, private location: Location, public _as: AppServiceService, private _appService: AppServiceService, private appComponent: AppComponent) { }
   ngOnInit(): void {
     this.clickedCardTitle = this._appService.clickedCardTitle;
     console.log('cardTitle', this._appService.clickedCardTitle)
@@ -68,6 +67,11 @@ export class HeaderComponent implements OnInit {
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  public downloadPdf(): void {
+    this.appComponent.downloadAsPdf();
+    console.log('downloadAsPdf')
   }
 
 }

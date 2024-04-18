@@ -354,7 +354,7 @@ export const cardsData: Card[] = [
         date: "1 month",
         subCategory: "Pedagogy and subject knowldge of learners\n\nFLN",
         stepsTaken: [
-          " Document most commonly made grammar mistakes that your students do ,",
+          "Document most commonly made grammar mistakes that your students do ,",
           " Design lesson plan of action on how to correct grammatical mistakes of students,",
           "Introduce these grammar rules in a fun and engaging way.,",
           "Help students in creating posters of newly learnt grammar rules,",
