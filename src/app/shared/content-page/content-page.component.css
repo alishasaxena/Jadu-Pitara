@@ -11,7 +11,7 @@
 .objective {
   color: var(--text-color);
   font-family: Happy Monkey;
-  font-size: 1.5rem !important;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
